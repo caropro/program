@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T11:01:12.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="VliRWKQHpwnQWnsJ3l_i" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T11:08:06.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3F6uCNtBo5V1d6Rr1Bmw" version="14.1.1" type="github">
   <diagram id="4MDGkGjNMi90dTBX4ZY5" name="Page-1">
     <mxGraphModel dx="3342" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
         <mxCell id="p-SktXCg8iCgWs7iRDfj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-7" target="p-SktXCg8iCgWs7iRDfj-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p-SktXCg8iCgWs7iRDfj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-7" target="p-SktXCg8iCgWs7iRDfj-15">
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-7" target="p-SktXCg8iCgWs7iRDfj-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p-SktXCg8iCgWs7iRDfj-7" value="根据默认的合理尺寸范围进行筛判，限制最大和最小尺寸" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
@@ -33,14 +33,38 @@
         <mxCell id="p-SktXCg8iCgWs7iRDfj-8" value="获取每类放置物的Bounding尺寸" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="469" y="190" width="162" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-10" target="p-SktXCg8iCgWs7iRDfj-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="p-SktXCg8iCgWs7iRDfj-10" value="如放置物超出柜子尺寸，则这类物体不进行下一步计算" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="469" y="380" width="162" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="p-SktXCg8iCgWs7iRDfj-15" value="如放置物超出柜子尺寸，则这类物体不进行下一步计算" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="180" y="680" width="162" height="90" as="geometry" />
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-27" target="p-SktXCg8iCgWs7iRDfj-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p-SktXCg8iCgWs7iRDfj-17" value="如放置物超出柜子尺寸，则这类物体不进行下一步计算" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="469" y="550" width="162" height="90" as="geometry" />
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-27" target="p-SktXCg8iCgWs7iRDfj-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-19" value="在柜子的水平范围内累积放置物体，根据输入比例进行放置" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="469" y="560" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-21" target="p-SktXCg8iCgWs7iRDfj-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-21" value="生成隔断，且最低与最窄隔断不能小于最低与最窄物体的尺寸，如有则与周边进行合并处理" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="700" width="202" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-24" value="合并输出" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="313" y="960" width="202" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-19" target="p-SktXCg8iCgWs7iRDfj-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="650" as="sourcePoint" />
+            <mxPoint x="414" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-27" value="排除整体超出柜子范围的物体，随机合并相邻的隔断并传递回柜子生成" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="469" y="710" width="162" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
