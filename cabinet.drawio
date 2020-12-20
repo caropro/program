@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T10:51:11.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.1" etag="xG6Kf-m1czO_LrVyeBL3" type="github"><diagram id="4MDGkGjNMi90dTBX4ZY5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-20T11:01:12.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="VliRWKQHpwnQWnsJ3l_i" version="14.1.1" type="github">
+  <diagram id="4MDGkGjNMi90dTBX4ZY5" name="Page-1">
+    <mxGraphModel dx="3342" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-1" target="p-SktXCg8iCgWs7iRDfj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="371" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-1" value="尺寸输入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="201" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-2" target="p-SktXCg8iCgWs7iRDfj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-2" value="放置物输入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-7" target="p-SktXCg8iCgWs7iRDfj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-7" target="p-SktXCg8iCgWs7iRDfj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-7" value="根据默认的合理尺寸范围进行筛判，限制最大和最小尺寸" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p-SktXCg8iCgWs7iRDfj-8" target="p-SktXCg8iCgWs7iRDfj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-8" value="获取每类放置物的Bounding尺寸" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="469" y="190" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-10" value="如放置物超出柜子尺寸，则这类物体不进行下一步计算" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="469" y="380" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-15" value="如放置物超出柜子尺寸，则这类物体不进行下一步计算" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="680" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-SktXCg8iCgWs7iRDfj-17" value="如放置物超出柜子尺寸，则这类物体不进行下一步计算" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#3399FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="469" y="550" width="162" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
